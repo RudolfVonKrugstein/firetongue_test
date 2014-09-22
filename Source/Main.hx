@@ -1,19 +1,14 @@
 package;
 
+import firetongue.FireTongue;
 
-import openfl.display.Sprite;
-
-
-class Main extends Sprite {
+class Main {
+    static public var tongue : FireTongue = new FireTongue();
 	
-	
-	public function new () {
-		
-		super ();
-		
-		
-		
+	static public function main () {
+      tongue.init(flash.system.Capabilities.language, onFiretongueLoaded, true);
 	}
-	
-	
+
+    private static function onFiretongueLoaded() {
+    }
 }

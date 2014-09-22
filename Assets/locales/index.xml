@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<file id="data" value="data.csv"/>
+
+	<!--American English-->
+	<locale id="en-US" is_default="true" sort="0">	
+		<contributors value="Nathan Huesken"/>
+		<ui language="Language" region="Region" accept="Okay" />
+		<label id="en-US,en-GB,en-CA" language="English" region="United States"/>	
+    </locale>    
+
+</data>
