@@ -6,7 +6,7 @@ class Main {
     static public var tongue : FireTongue = new FireTongue();
 	
 	static public function main () {
-      tongue.init(flash.system.Capabilities.language, onFiretongueLoaded, true);
+      tongue.init("de", onFiretongueLoaded, true);
 	}
 
     private static function onFiretongueLoaded() {
